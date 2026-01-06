@@ -1,0 +1,51 @@
+nav ul {
+  list-style: none;      /* remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block; /* makes items inline */
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.482);
+}
+resume {
+    background-color: black;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers everything horizontally */
+  text-align: center;
+}
+#submit {
+    color: rgb(51, 30, 210);
+}
+#footer {
+    background-color: maroon;
+    color: cornsilk;
+    text-emphasis: none;
+    text-align: center; /* centers the footer */
+}
+#contact {
+  background-image: url("contact2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  color: rgb(210, 30, 30);
+}
+
+
+
