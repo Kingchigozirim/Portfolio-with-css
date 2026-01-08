@@ -1,51 +1,68 @@
+/* Remove default bullet points and spacing from the navigation list */
 nav ul {
-  list-style: none;      /* remove bullets */
-  padding: 0;
-  margin: 0;
+  list-style: none;      /* removes bullets */
+  padding: 0;            /* removes inner spacing */
+  margin: 0;             /* removes outer spacing */
+  text-align: right;
 }
 
+/* Make navigation list items appear horizontally */
 nav ul li {
-  display: inline-block; /* makes items inline */
-  margin-right: 20px;
+  display: inline-block; /* places menu items side by side */
+  margin-right: 20px;    /* space between menu items */
+  text-align: right;
 }
 
+/* Style the navigation links */
 nav ul li a {
-  text-decoration: none;
-  color: black;
+  text-decoration: none; /* removes underline from links */
+  color: black;          /* sets link color */
+  text-align: right;
 }
+
+/* Apply Roboto font to the entire website */
 * {
   font-family: 'Roboto', sans-serif;
 }
+
+/* Style the header section */
 header {
-    text-align: center;
-    background-color: rgba(165, 42, 42, 0.482);
+  text-align: center;                      /* centers header text */
+  background-color: rgba(165, 42, 42, 0.482); /* semi-transparent brown background */
 }
+
+/* Style the resume section (note: works only if <resume> tag exists) */
 resume {
-    background-color: black;
+  background-color: black; /* sets background color to black */
 }
+
+/* Style the contact section layout */
 #contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;   /* centers everything horizontally */
-  text-align: center;
+  display: flex;                 /* enables flexbox */
+  flex-direction: column;        /* stacks items vertically */
+  align-items: center;           /* centers items horizontally */
+  text-align: center;            /* centers text */
 }
+
+/* Style the submit button */
 #submit {
-    color: rgb(51, 30, 210);
+  color: rgb(51, 30, 210); /* blue-purple text color */
 }
+
+/* Style the footer section */
 #footer {
-    background-color: maroon;
-    color: cornsilk;
-    text-emphasis: none;
-    text-align: center; /* centers the footer */
+  background-color: maroon; /* footer background color */
+  color: cornsilk;          /* footer text color */
+  text-emphasis: none;      /* removes text emphasis */
+  text-align: center;       /* centers footer text */
 }
+
+/* Add a background image to the contact section */
 #contact {
-  background-image: url("contact2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 40px;
-  color: rgb(210, 30, 30);
+  background-image: url("contact2.jpg"); /* sets background image */
+  background-size: cover;                /* makes image cover entire section */
+  background-position: center;           /* centers the image */
+  background-repeat: no-repeat;           /* prevents image repetition */
+  padding: 40px;                          /* space inside the section */
+  color: rgb(210, 30, 30);                /* text color inside contact section */
 }
-
-
-
