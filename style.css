@@ -16,7 +16,7 @@ nav ul li {
 /* Style the navigation links */
 nav ul li a {
   text-decoration: none; /* removes underline from links */
-  color: black;          /* sets link color */
+  color: blue;          /* sets link color */
   text-align: right;
 }
 
