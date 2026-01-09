@@ -31,10 +31,10 @@ header {
   background-color: rgba(165, 42, 42, 0.482); /* semi-transparent brown background */
 }
 
-/* Style the resume section (note: works only if <resume> tag exists) */
+/* Style the table section (note: works only if <resume> tag exists) */
   
 table {
-  background-color: wheat; /* sets background color to black */
+  background-color: wheat; /* sets background color to wheat */
   border-collapse: collapse;
   color: brown;
 }
