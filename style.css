@@ -32,8 +32,18 @@ header {
 }
 
 /* Style the resume section (note: works only if <resume> tag exists) */
-resume {
-  background-color: black; /* sets background color to black */
+  
+table {
+  background-color: wheat; /* sets background color to black */
+  border-collapse: collapse;
+  color: brown;
+}
+
+
+td, th {
+  padding: 0.2em;
+  text-align: center;
+
 }
 
 /* Style the contact section layout */
