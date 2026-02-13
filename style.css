@@ -47,7 +47,7 @@ td, th {
 }
 
 /* Style the contact section layout */
-#contact {
+.contact {
   display: flex;                 /* enables flexbox */
   flex-direction: column;        /* stacks items vertically */
   align-items: center;           /* centers items horizontally */
@@ -60,7 +60,7 @@ td, th {
 }
 
 /* Style the footer section */
-#footer {
+.footer {
   background-color: maroon; /* footer background color */
   color: cornsilk;          /* footer text color */
   text-emphasis: none;      /* removes text emphasis */
@@ -68,7 +68,7 @@ td, th {
 }
 
 /* Add a background image to the contact section */
-#contact {
+.contact {
   background-image: url("contact2.jpg"); /* sets background image */
   background-size: cover;                /* makes image cover entire section */
   background-position: center;           /* centers the image */
